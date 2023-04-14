@@ -63,12 +63,10 @@ function Survey() {
   const nextQuestionNumber = questionNumberInt + 1
   const [surveyData, setSurveyData] = useState({})
   const [isDataLoading, setDataLoading] = useState(false)
-  const { answers, saveAnswers } = useContext(SurveyContext)
+  const { answers } = useContext(SurveyContext)
   const [error, setError] = useState(false)
 
-  function saveReply(answer) {
-    saveAnswers({ [questionNumber]: answer })
-  }
+  function saveReply(answer) {}
 
   useEffect(() => {
     async function fetchSurvey() {
