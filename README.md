@@ -1,6 +1,12 @@
 # OpenClassrooms - Créez une application React complète
 
 Ce repo contient le code de base pour les exercices que vous trouverez dans le cours [OpenClassrooms - Créez une application React complète](https://openclassrooms.com/fr/courses/7150606-creez-une-application-react-complete).
+## Versions des principaux packages
+
+React v17.0.2
+React Router v6.10.0
+
+Version de node recommendée pour le suivi du projet : Node v16
 
 ## Exercices
 
